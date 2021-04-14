@@ -1,0 +1,37 @@
+html {
+    font-family: sans-serif;
+  }
+  
+  ul {
+    list-style-type: none;	
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+  }
+  
+  li.success{
+    margin-bottom: 10px;
+    background-color: rgb(69, 201, 102);
+    font-size: 150%;
+    border-top: 3px rgb(69, 201, 102);
+    border-bottom: 3px rgb(69, 201, 102);
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.7);
+  }
+
+  li.failed{
+    margin-bottom: 10px;
+    background-color: rgb(202, 85, 81);
+    font-size: 150%;
+    border-top: 3px rgb(202, 85, 81);
+    border-bottom: 3px rgb(202, 85, 81);
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.7);
+  }
+  
+  strong {
+    background-color: rgb(76, 75, 82);
+    color: white;
+    padding: 0 8px;
+    border-top: 3px solid rgb(76, 75, 82);
+    border-bottom: 3px solid rgb(76, 75, 82);
+    text-shadow: 2px 2px 1px black;
+  }
