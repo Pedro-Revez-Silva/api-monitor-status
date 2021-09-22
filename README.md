@@ -1,1 +1,1 @@
-jb2.0-monitor-status
+api-monitor-status

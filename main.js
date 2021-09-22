@@ -3,7 +3,7 @@
 'use strict';
 
 const e = React.createElement;
-const apiKey = "PMAK-601b945dd62907003bbb537b-d68daf44950a881daf3cf4151f029878cd";
+const apiKey = "";
 let monitorUID = "11516962-1eb91687-5e85-49c0-a7e6-8a6947cb671c";
 
 async function getListOfMonitors(apiKey){
